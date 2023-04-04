@@ -44,7 +44,7 @@ SCREENRAM     = $0400
 
 entry
 
-                lda #$b2                ; the color vadlue
+                lda #$05                ; the color vadlue
                 sta BGCOLOR             ; change background color
                 sta BORDERCOLOR         ; change border color
 
